@@ -2,7 +2,7 @@
   "name": "tribute-page-freecodecamp",
   "version": "1.0.0",
   "description": "Tribute page for freecodecamp submission",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start-dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
@@ -20,5 +20,13 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0",
     "webpack-merge": "^5.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yellyputriw/tribute-page-freecodecamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yellyputriw/tribute-page-freecodecamp/issues"
+  },
+  "homepage": "https://github.com/yellyputriw/tribute-page-freecodecamp#readme"
 }
