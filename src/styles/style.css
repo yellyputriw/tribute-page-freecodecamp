@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
 }
 
-nav {
+app-bar nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -39,12 +39,12 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-#main {
+main-section {
   text-align: center;
   min-width: 400px;
 }
 
-#main h1 {
+main-section h1 {
   font-family: Lemonada, sans-serif;
   font-size: 12vw;
   margin: 0;
@@ -52,7 +52,7 @@ nav ul li a:hover {
   line-height: 1em;
 }
 
-#main p {
+main-section p {
   margin: 0;
   font-size: 5vw;
 }
@@ -73,16 +73,16 @@ nav ul li a:hover {
   font-size: 0.7em;
 }
 
-#tribute-info {
+tribute-info {
   width: 600px;
   margin: 50px auto;
 }
 
-#tribute-info h2 {
+tribute-info h2 {
   text-align: center;
 }
 
-#tribute-info ul {
+tribute-info ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -90,7 +90,7 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-#tribute-info li {
+tribute-info li {
   width: 200px;
   height: 200px;
   margin: 5px;
@@ -134,7 +134,7 @@ nav ul li a:hover {
   margin-top: 5px;
 }
 
-#videos {
+video-section {
   text-align: center;
 }
 
